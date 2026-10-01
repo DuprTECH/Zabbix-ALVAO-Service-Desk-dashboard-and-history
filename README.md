@@ -17,6 +17,19 @@ Zabbix 7.4 templates that read ticket statistics from **[ALVAO Service Desk](htt
 - 🔁 **Change requests counted separately** from regular tickets
 - 🌐 **No agent needed**: everything runs as HTTP agent items on the Zabbix server / proxy
 
+## What you can track
+
+Because every technician has their own host with history, you can see not only the current state but also **how each technician works with tickets over time**:
+
+- ⏳ **Tickets left without a response**: how many open tickets a technician hasn't touched for more than 7 days (no activity), and how this number grows or drops over weeks
+- 📂 **Open vs. resolved**: how many tickets a technician has open right now, how many they closed or resolved today, and their daily average
+- ⚡ **Reaction to new tickets**: new tickets in the last 15 minutes, and how many of them are still **unassigned**, so you see whether the team picks them up quickly
+- 📊 **Workload comparison**: who carries the most open tickets, who closes the most, and who has the most tickets without activity (sortable table, TOP 3)
+- 🔁 **Change requests** tracked separately from regular tickets
+- 📈 **Long-term trends**: backlog, new and closed tickets per day over months, useful for team reviews and planning
+
+Need more, for example response and resolution times, SLA breaches or statistics per service or location? Get in touch: 📧 [info@duprtech.sk](mailto:info@duprtech.sk)
+
 ## Contents
 
 | File | Description |
