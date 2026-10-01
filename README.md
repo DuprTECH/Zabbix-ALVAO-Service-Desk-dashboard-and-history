@@ -30,6 +30,21 @@ Because every technician has their own host with history, you can see not only t
 
 Need more, for example response and resolution times, SLA breaches or statistics per service or location? Get in touch: 📧 [info@duprtech.sk](mailto:info@duprtech.sk)
 
+### Very flexible: filter it your way
+
+All data comes from ALVAO REST API queries with **OData filters**, so you decide what is counted. Without changing any code you can filter by almost any ticket or user field, for example:
+
+| What | Example filter |
+|------|----------------|
+| Only some **services** | `startswith(serviceName,'IT')`, `serviceName eq 'Helpdesk'` |
+| Only some **processes** / ticket types | `not startswith(processName,'Request for change')` |
+| Only some **states** | `stateName ne 'Closed' and stateName ne 'Resolved'` |
+| Only some **teams / departments** (users) | `startswith(department,'IT')`, `department eq 'Service Desk'` |
+| Exclude **service / admin accounts** | `not startswith(name,'x')` |
+| Only **active** users | `isDisabled eq false` |
+
+Change the user filter with the macro `{$ALVAO.USERS.FILTER}`, the service and change-request names with `{$ALVAO.SERVICE.PREFIX}` and `{$ALVAO.CHANGE.PROCESS}`, and anything else in the `$filter` query field of the HTTP items. You can also clone an item and filter it differently, for example one item per service, location or priority.
+
 ## Contents
 
 | File | Description |
