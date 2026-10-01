@@ -4,7 +4,10 @@ Zabbix 7.4 templates that read ticket statistics from **[ALVAO Service Desk](htt
 
 ![Example Zabbix dashboard built from these templates](dashboard.png)
 
-*Example dashboard built from the data of these templates (names anonymized): open / unassigned tickets, tickets without activity, new and closed tickets per day, and a per-technician overview table. The dashboard itself is not part of the template export.*
+*Example dashboard built from the data of these templates: open / unassigned tickets, tickets without activity, new and closed tickets per day, and a per-technician overview table.*
+
+- 🕵️ **The screenshot is anonymized.** In the real dashboard you see the **real name of each technician** instead of *Technician 01, 02, …* (taken from ALVAO by the user discovery). **Click a name** to open that technician's host and see the full history of their tickets in Zabbix.
+- 🧩 **The dashboard is not part of the template.** Zabbix can't export a global dashboard together with a template, so it isn't in this repository. If you'd like a dashboard like this, I can help you build one to fit your needs. Get in touch: 📧 [info@duprtech.sk](mailto:info@duprtech.sk)
 
 ## ✨ Highlights
 
