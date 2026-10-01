@@ -2,6 +2,10 @@
 
 Zabbix 7.4 templates that read ticket statistics from **[ALVAO Service Desk](https://www.alvao.com/)** through the **ALVAO REST API** and keep their history in Zabbix. You get team totals (open, unassigned, new and closed today, …) and **personal statistics for every solver**, ready for dashboards, graphs and triggers.
 
+![Example Zabbix dashboard built from these templates](dashboard.png)
+
+*Example dashboard built from the data of these templates (names anonymized): open / unassigned tickets, tickets without activity, new and closed tickets per day, and a per-technician overview table. The dashboard itself is not part of the template export.*
+
 ## ✨ Highlights
 
 - 👥 **Automatic discovery of users (solvers)**: users are discovered from ALVAO **by an OData filter** (for example everyone in the IT department). Each user gets their own Zabbix host with personal statistics, and new colleagues appear automatically.
