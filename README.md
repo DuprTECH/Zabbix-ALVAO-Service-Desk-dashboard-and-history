@@ -144,7 +144,7 @@ Test the filter first in a browser: `https://alvao.example.com/AlvaoRestApi/v1/u
 
 Need something extra? I can extend or customize these templates for your company's needs, for example dashboards for the team leader, SLA and response time statistics, per-service or per-location statistics, triggers and notifications. Feel free to get in touch: 📧 [info@duprtech.sk](mailto:info@duprtech.sk)
 
-If this template saved you time and you're happy with my work, you can buy me a coffee ☕
+If this work makes sense to you, give the repo a ⭐ star or support me on Ko-fi ☕
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/duprtech)
 
